@@ -15,7 +15,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
 	 var imge = await searchImages(text)
 	 var xmg = imge.getRandom()
 	 
-	 conn.sendFile(m.chat, xmg.urls.full ? xmg.urls.regular : xmg.urls.thumb, "النتيجة", "♥" + xmg.description + "*", m)
+	 conn.sendFile(m.chat, xmg.urls.full ? xmg.urls.regular : xmg.urls.thumb, "الــنــتــيــجــة", "♥" + xmg.description + "*", m)
    } catch (e) {
    throw 'error'
  }
