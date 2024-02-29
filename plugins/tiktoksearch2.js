@@ -1,12 +1,12 @@
 import fetch from 'node-fetch';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `البحث في التيك توك مثال :\n\n*${usedPrefix + command} المغرب*`;;
+  if (!text) throw `البحث في التيك توك مثال :\n\n*${usedPrefix + command} Tumas___Shilbi*`;;
   const spas = "              ";
   const res = await fetch(`https://api.ikyy.my.id/tiktoksearch?text=${text}`);	
   const data = await res.json();
   const json = data.result[0];
-  await conn.sendFile(m.chat, json.play, 'tiktok.mp4', `instagram.com/noureddine_ouafy 
+  await conn.sendFile(m.chat, json.play, 'tiktok.mp4', `instagram.com/flibu_gaming 
 
 
 *📛:صاحب الفيديو* ${json.author}
