@@ -20,7 +20,7 @@ global.owner = [
 global.suittag = ['212645106267'];
 global.prems = ['212645106267'];
 
-global.packname = 'F L I B U B O T';
+global.packname = 'ＦＬＩＢＵ ＢＯＴ';
 global.author = 'T U M A S S H I L B I';
 global.wm = 'ＦＬＩＢＵ ＢＯＴ';
 global.titulowm = 'ＦＬＩＢＵ ＢＯＴ';
@@ -45,15 +45,15 @@ global.mes = d.toLocaleDateString('en', {month: 'long'});
 global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
+global.wm2 = `${dia} ${fecha}\nＦＬＩＢＵ ＢＯＴ`;
+global.gt = 'ＦＬＩＢＵ ＢＯＴ';
 global.mysticbot = 'The ＦＬＩＢＵ ＢＯＴ';
 global.md = 'https://instagram.com/flibu_gaming';
 global.mysticbot = 'https://instagram.com/flibu_gaming';
 global.waitt = '*[ ⏳ ] LOADING...*';
 global.waittt = '*[ ⏳ ] LOADING...*';
 global.waitttt = '*[ ⏳ ] LOADING...*';
-global.nomorown = '212605784394';
+global.nomorown = '212645106267';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
