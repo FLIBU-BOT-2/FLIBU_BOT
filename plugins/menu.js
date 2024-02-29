@@ -136,7 +136,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'ＦＬＩＢＵ ♥',
+title: 'ＦＬＩＢＵ ＢＯＴ ♥',
 body: "أول بوت واتساب في العالم العربي 💖",
 thumbnailUrl: 'https://telegra.ph/file/48c17788bf690fcca5ada.jpg',
 sourceUrl: 'https://instagram.com/flibu_gaming',
