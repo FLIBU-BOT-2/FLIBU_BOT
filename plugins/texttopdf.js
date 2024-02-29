@@ -10,7 +10,7 @@ let handler = async (m, {
     command
 }) => {
     // Usage example
-    let query = `هذا الامر يقوم بتحويل اي نص لــpdf \nلكن شريطة ان يكون النص بلغة اجنبية لانه لا يدعم اللغة العربية للاسف ♥ نكتب هكذا على سبيل المثال حتى تفهم\n\n*.textpdf* hello my name is noureddine follow me in my instagram`
+    let query = `هذا الامر يقوم بتحويل اي نص لــpdf \nلكن بشرط ان يكون النص بلغة اجنبية لانه لا يدعم اللغة العربية للاسف ♥ نكتب هكذا على سبيل المثال حتى تفهم\n\n*.textpdf* hello my name is flibu gaming follow me in my instagram`
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
