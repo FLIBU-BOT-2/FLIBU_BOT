@@ -6,7 +6,7 @@ let handler = async (m, {
     args,
     command
 }) => {
-    let query = "أين الرابط الرابط تريد ان تحوله ل pdf !\n مثال :\n .urltopdf https://www.facebook.com/profile.php?id=100063533185520 "
+    let query = "أين الرابط الرابط تريد ان تحوله ل pdf !\n مثال :\n .urltopdf https://www.facebook.com/FLIBUGAMING "
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
