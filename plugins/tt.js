@@ -8,7 +8,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
     throw `*التحميل من منصة التيك توك\n مثال:\n\n ${
       usedPrefix + command
-    } https://www.tiktok.com/@tuanliebert/video/7313159590349212934?is_from_webapp=1&sender_device=pc`;
+    } https://www.tiktok.com/@tumas___shilbi/video/7193310999859154182?_r=1&u_code=djm6l74b5ij1ck&preview_pb=0&sharer_language=fr&_d=eab6ii817ll444&share_item_id=7193310999859154182&source=h5_m&timestamp=1709237108&user_id=6990099330791785474&sec_user_id=MS4wLjABAAAArDbLjrw--fx26elck1VZKRtO3EAhYF03OPHx_yrlqxGuI-gDWHtRiCmrmBxqTofq&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7333664408641783557&share_link_id=551d4888-7c62-4d41-a792-81e7c5576da5&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b8727%2Cb2878&enable_checksum=1`;
   }
 
   try {
