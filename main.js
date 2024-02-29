@@ -151,16 +151,16 @@ global.conn = makeWASocket(connectionOptions);
             numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 
             if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-                console.log(chalk.bgBlack(chalk.redBright("Start with the country code of your WhatsApp number.\nExample: +212605784394")))
+                console.log(chalk.bgBlack(chalk.redBright("Start with the country code of your WhatsApp number.\nExample: +212645106267")))
                 process.exit(0)
             }
         } else {
-            numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Please write your WhatsApp number.\nExample:+212605784394 : `)))
+            numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Please write your WhatsApp number.\nExample:+212645106267 : `)))
             numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
             if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-                console.log(chalk.bgBlack(chalk.redBright("Start with the country code of your WhatsApp number.\nExample: +212605784394")))
+                console.log(chalk.bgBlack(chalk.redBright("Start with the country code of your WhatsApp number.\nExample: +212645106267")))
 
-                numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Please write your WhatsApp number.\nExample: +212605784394 : `)))
+                numeroTelefono = await question(chalk.bgBlack(chalk.greenBright(`Please write your WhatsApp number.\nExample: +212645106267 : `)))
                 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
                 rl.close()
             }
