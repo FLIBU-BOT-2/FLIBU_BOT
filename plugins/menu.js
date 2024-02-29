@@ -138,7 +138,7 @@ contextInfo: {
 externalAdReply: {
 title: 'ＦＬＩＢＵ ＢＯＴ ♥',
 body: "أول بوت واتساب في العالم العربي 💖",
-thumbnailUrl: 'https://telegra.ph/file/48c17788bf690fcca5ada.jpg',
+thumbnailUrl: 'https://telegra.ph/file/1e30f2e18fc41d59a93fb.jpg',
 sourceUrl: 'https://instagram.com/flibu_gaming',
 mediaType: 1,
 renderLargerThumbnail: true
