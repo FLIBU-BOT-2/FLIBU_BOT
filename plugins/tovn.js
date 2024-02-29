@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let media = await q.download?.()
     if (!media) throw '😣 تحميل الملف'
     let audio = await toPTT(media, 'mp4')
-    if (!audio.data) throw '😣تعذرت عملية التحويل'
+    if (!audio.data) throw '😣 تعذرت عملية التحويل'
     conn.sendFile(m.chat, audio.data, 'audio.mp3', '', m, true, { mimetype: 'audio/mp4' })
 }
 handler.help = ['tovn']
