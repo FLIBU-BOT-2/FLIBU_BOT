@@ -6,7 +6,7 @@ let handler = async (m, {
     usedPrefix,
     command
 }) => {
-    let input = `البحث عن فيديوهات في التيكتوك مثال \n\n${usedPrefix + command} free fire`
+    let input = `البحث عن فيديوهات في التيكتوك مثال \n\n${usedPrefix + command} Tumas___Shilbi`
   if (!text) return m.reply(input)
  m.reply(wait)
 ttSearch(text).then(a => {
