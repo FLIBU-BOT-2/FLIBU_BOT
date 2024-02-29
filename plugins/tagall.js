@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
     let users = participants.map(u => u.id).filter(v => v !== conn.user.jid)
-    m.reply(`*الموضوع:*\n${text ? `${text}\n` : ''}\n*قمت بي اشارة اليك لي تعرف الموضوع*\n\ninstagram.com/flibu_gaming \n\n\n` + users.map(v => '│♪ @' + v.replace(/@.+/, '')).join`\n` + '\n⛾「 *تمت الإشارة للكل* 」⛾', null, {
+    m.reply(`*الموضوع:*\n${text ? `${text}\n` : ''}\n*قمت بي اشارة اليك لي تعرف الموضوع* *\n\ninstagram.com/flibu_gaming \n\n\n` + users.map(v => '│♪ @' + v.replace(/@.+/, '')).join`\n` + '\n⛾「 *تمت الإشارة للكل* 」⛾', null, {
         mentions: users
     })
 }
