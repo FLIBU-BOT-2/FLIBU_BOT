@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.reply(m.chat, 'مثال:\n.apkpuresearch lite', m)
 
-  await m.reply('جاري البحث...')
+  await m.reply('جـاري الـبـحـث...')
     let res = await sandroid1(text)
     let teks = res.data.map((v, index) => {
                     return v.judul + '\n⌚ dev: ' + v.dev + '\n⏲️ rating: ' + v.rating + '\n👁️ thumb: ' + v.thumb + '\n📎 link: ' + v.link
