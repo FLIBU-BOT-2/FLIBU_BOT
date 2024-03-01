@@ -9,7 +9,7 @@ const handler = async (m, {
     command
 }) => {
 
-    const msg = `التحميل من انستغرام قد يرسل لك الفيديو عبارة عن صورة \n*.snapsave* https://www.instagram.com/reel/CzR1mHBNA-t`;
+    const msg = `التحميل من انستغرام قد يرسل لك الفيديو عبارة عن صورة \n*.snapsave https://www.instagram.com/reel/C3He_PFIs5i/?igsh=NGc1YXFuaGZvM2tz`;
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
