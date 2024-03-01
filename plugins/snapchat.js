@@ -39,7 +39,7 @@ let handler = async (m, {
                         mediaUrl: res.contentUrl,
                         renderLargerThumbnail: true,
                         showAdAttribution: true,
-                        sourceId: "BOBIZA BOT",
+                        sourceId: "ＦＬＩＢＵ ＢＯＴ",
                         sourceType: "PDF",
                         previewType: "PDF",
                         sourceUrl: res.contentUrl,
