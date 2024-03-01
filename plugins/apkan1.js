@@ -3,11 +3,11 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.reply(m.chat, '\nهذا الامر خاص بالبحث عن التطبيقات في موقع https://an1.com/\n مثال:\n.apkan1 lite', m)
 
-  await m.reply('جاري البحث...')
+  await m.reply('جـاري الـبـحـث...')
     let res = await sandroid1(text)
     let teks = res.data.map((v, index) => {
                     return v.judul + '\n⌚ dev: ' + v.dev + '\n⏲️ rating: ' + v.rating + '\n👁️ thumb: ' + v.thumb + '\n📎 link: ' + v.link
-                }).filter(v => v).join("\n\n________________________\n\ninstagram.com/noureddine_ouafy")
+                }).filter(v => v).join("\n\n________________________\n\ninstagram.com/flibu_gaming")
                 await m.reply(teks)
 }
 handler.help = ['apkan1']
