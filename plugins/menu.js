@@ -23,9 +23,9 @@ let tags = {
 const defaultMenu = {
   before: `الـسـلام عـلـيـكـم 👋. 
 
-┏━━ salam  *%name*
-👥 *Total user:* %totalreg 
-⏰ *Uptime:* %muptime  
+┏━━ مـرحـبـآ: *%name*
+👥 *إجـمـالـي الـمـسـتـخـدم:* %totalreg 
+⏰ *مـدة الـتـشـغـيـل:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
   ≡ *F L I B U | M E N U*
