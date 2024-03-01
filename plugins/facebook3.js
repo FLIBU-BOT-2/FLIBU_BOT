@@ -21,7 +21,7 @@ const handler = async (m, {
 
     try {
         if (!args[0] || !/^https?:\/\//i.test(args[0])) {
-            return conn.reply(m.chat, `*هذا الامر خاص بتحميل فيديوهات الفيسبوك على شكل ملف وايضا على شكل فيديو  سيرسلها لك بالجودة  العالية و المتوسطة نكتب هكذا مثال :*\n*.facebook3* https://www.facebook.com/CrazyEditor2/videos/1048242439453391`, m);
+            return conn.reply(m.chat, `*هذا الامر خاص بتحميل فيديوهات الفيسبوك على شكل ملف وايضا على شكل فيديو  سيرسلها لك بالجودة  العالية و المتوسطة نكتب هكذا مثال :*\n*.facebook3* https://www.facebook.com/100084636007325/posts/pfbid04SWoTpoPX1PiRbmwNqLnSAZzD5b2FT5LsukhEWeE4czyNskCCGKKMVavHftZEfV5l/?app=fbl`, m);
         }
 
         const response = await fetch('https://fdown.net/download.php', {
@@ -31,7 +31,7 @@ const handler = async (m, {
             }),
         });
 
-        m.reply('انتظر من فضلك......\n'+wait);
+        m.reply('انـتـظـر مـن فـضـلك......\n'+wait);
 
         const html = await response.text();
         const $ = cheerio.load(html);
@@ -55,10 +55,10 @@ const handler = async (m, {
         let hdWarning = '';
 
         if (sizeSD < sizeHD) {
-            sdWarning = 'سيتم تنزيل ملفات SD وارسالها لأنها أصغر من HD';
+            sdWarning = 'سـيـتـم تـنـزيـل مـلـفـات SD وارسـالـهـا لأنـهـا أصـغـر مـن HD';
             conn.reply(m.chat, sdWarning, m);
         } else {
-            hdWarning = 'سيتم تنزيل الملفات عالية الدقة وارسالها لأنها أصغر من ملفات SD';
+            hdWarning = 'سـيـتـم تـنـزيـل الـمـلـفـات عـالـيـة الـدقـة وارسـالـهـا لأنـهـا أصـغـر مـن مـلـفـات SD';
             conn.reply(m.chat, hdWarning, m);
         }
 
@@ -66,13 +66,13 @@ const handler = async (m, {
             const link = mp4Links[index];
             const buffer = await fetch(link).then(res => res.buffer());
             const resolution = index === 0 ? 'SD' : 'HD';
-            const caption = `جودة الفيديو: (${resolution})\n${title}\n\n${description}\nرابط الفيديو: ${args[0]}`;
+            const caption = `جـودة الـفـيـديـو: (${resolution})\n${title}\n\n${description}\nرابـط الـفـيـديـو: ${args[0]}`;
             await conn.sendMessage(
                 m.chat, {
                     video: buffer,
                     mimetype: "video/mp4",
                     fileName: `video_${index + 1}.mp4`,
-                    caption: ` هذا هو الفيديو الخاص بك@${sender} \n${caption}`,
+                    caption: ` هـذا هـو الـفـيـديـو الـخـاص بـك@${sender} \n${caption}`,
                     mentions: [m.sender],
                 }, {
                     quoted: m
