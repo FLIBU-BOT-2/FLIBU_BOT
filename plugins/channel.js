@@ -1,8 +1,8 @@
 let handler = async (m, { conn }) => {
 
-m.reply(`*قناتي على الواتساب:*\n
-*https://whatsapp.com/channel/0029VaLopUxFnSz7D2CH9S0P*
-*تابعني هناك♥*`)
+m.reply(`*قـنـاتـي عـلـى الـواتـسـاب:*\n
+*https://whatsapp.com/channel/0029VaFIufkDZ4LhrMrdm247*
+*تـابـعـنـي هـنـاك♥*`)
 }
 handler.help = ['channel']
 handler.tags = ['infobot']
