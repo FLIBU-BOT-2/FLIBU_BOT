@@ -6,7 +6,7 @@ import { fbdown } from '../lib/scrape.js';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك بجودات متعددة مثال \n\n*.facebook5* https://www.facebook.com/100063533185520/posts/pfbid02wqHMWsNBLWHdLuGHrg1hBvS43FVgky89HY7hzcuvrCfD1j9oBTq4uHfUrMCLshZal/?app=fbl ';
+    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك بجودات متعددة مثال \n\n*.facebook5* https://www.facebook.com/100084636007325/posts/pfbid04SWoTpoPX1PiRbmwNqLnSAZzD5b2FT5LsukhEWeE4czyNskCCGKKMVavHftZEfV5l/?app=fbl ';
     const sender = m.sender.split(`@`)[0];
 
     m.reply(wait)
@@ -35,7 +35,7 @@ ${result.description}
             video: videoBuffer,
             mimetype: "video/mp4",
             fileName: `video.mp4`,
-            caption: `هذا هو الفيديو الذي طلبته  @${sender} \n${caption}`,
+            caption: `هـذا هـو الـفـيـديـو الـذي طلـبـتـه  @${sender} \n${caption}`,
             mentions: [m.sender],
         }, {
             quoted: m
@@ -43,7 +43,7 @@ ${result.description}
         );
     } catch (error) {
         console.error('Handler Error:', error);
-        conn.reply(m.chat, `وقعت مشكلة راسل \ninstagram.com/noureddine_ouafy`, m);
+        conn.reply(m.chat, `وقـعـت مـشـكـلـة راسـل \ninstagram.com/flibu_gaming`, m);
     }
 };
 
