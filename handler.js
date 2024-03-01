@@ -1539,7 +1539,7 @@ global.dfail = (type, m, conn) => {
     owner: '*[ ℹ️ ] This command can only be used by the bot owner.*',
     mods: '*[ ℹ️ ] This command can only be used by moderators and the bot owner.*',
     premium: '*[ ℹ️ ] This command can only be used by premium users and the bot owner.*',
-    group: '*[ ℹ️ ] This command can only be used in groups.*',
+    group: '*[ ℹ️ ] لا يـمـكـن اسـتـخـدام هـذا الأمـر إلا فـي الـمـجـمـوعـة*',
     private: '*[ ℹ️ ] This command can only be used in the bot s private chat.*',
     admin: '*[ ℹ️ ] This command can only be used by group administrators.*',
     botAdmin: '*[ ℹ️ ] To use this command it is necessary that the bot be an administrator of the group.*',
