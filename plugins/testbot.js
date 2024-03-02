@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `بوبيزة متصلة الان بالانترنيت \nيمكنك كتابة \n.menu\n لتنبتق لك جميع الاوامر \n@${m.sender.split('@')[0]} \n`
+let info = `فـلـيـبـو بــوت مـتـصـل الان بالانـتـرنـيـت \nيـمـكـنـك كـتـابـة \n.menu\n لـتـنـبـتـق لك جـمـيـع الاوامـر \n@${m.sender.split('@')[0]} \n`
 await conn.reply(m.chat, info, m, { contextInfo: { mentionedJid: [m.sender],forwardingScore: 80,
       isForwarded: true, externalAdReply: { title: author, body: bottime,thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
       await conn.sendMessage(m.chat, {
