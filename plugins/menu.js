@@ -4,7 +4,6 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'morocco':'  ‎أوامـر للـمـغـاربـة',
   'applications':'‎ 📂 أوامـر الـتـطـبـيـقـات‎ 📂',
   'drawing':'‎ 📷 تـولـيـد الـصـور‎ أوامـر 📷' ,
   'ai':'‎  🤖 الذكاء الاصطناعي‎ أوامر🤖',
